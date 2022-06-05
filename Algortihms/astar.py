@@ -1,17 +1,7 @@
 import pygame, sys, random, math
+# This file has been programmed with the utter most lack of time, thus quality might seem dubious
 
 pygame.init()
-
-# setup
-
-size = (1000, 1000) # screen size
-vertexDensity = 1/100 # vertices per px
-radius = 10
-
-backgroundColor = (255, 255, 255)
-visitedColor = (0, 200, 0)
-
-screen = pygame.display.set_mode(size)
 
 class AStarVisualization:
 	def __init__(self, size=(1000, 1000), vertexDensity=1/100, vertexRadius=15, tps=10, eraseRadius=15):
